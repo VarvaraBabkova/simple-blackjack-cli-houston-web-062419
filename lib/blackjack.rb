@@ -44,8 +44,8 @@ def hit? (total)
    case answer
    when "s"
      return total
-  # when "h"
-  #   deal_card
+   when "h"
+     deal_card
   # else
   #   invalid_command
   #   prompt_user
