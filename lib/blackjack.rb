@@ -48,6 +48,7 @@ def hit? (total)
     deal_card
   else
     invalid_command
+    prompt_user
   end
 
 end
