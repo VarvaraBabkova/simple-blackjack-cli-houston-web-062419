@@ -46,9 +46,9 @@ def hit? (total)
      return total
    when "h"
      return total + deal_card
-  # else
-  #   invalid_command
-  #   prompt_user
+   else
+     invalid_command
+     prompt_user
    end
   return total
 end
