@@ -38,10 +38,9 @@ def initial_round
 end
 
 def hit? (total)
-  # code hit? here
   prompt_user
   answer = get_user_input
-  
+
   # case answer
   # when "s"
   #   break
