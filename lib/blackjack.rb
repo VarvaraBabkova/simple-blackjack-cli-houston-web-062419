@@ -36,7 +36,7 @@ def initial_round
   display_card_total (sum)
   return sum
 end
-
+=begin
 def hit? (total)
   # code hit? here
   prompt_user
@@ -52,6 +52,7 @@ def hit? (total)
   end
 
 end
+=end
 
 def invalid_command
   # code invalid_command here
