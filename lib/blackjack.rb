@@ -41,15 +41,16 @@ def hit? (total)
   prompt_user
   answer = get_user_input
 
-  # case answer
-  # when "s"
-  #   break
+   case answer
+   when "s"
+     return total
   # when "h"
   #   deal_card
   # else
   #   invalid_command
   #   prompt_user
-  # end
+   end
+  return total
 end
 
 
