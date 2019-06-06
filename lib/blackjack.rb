@@ -45,7 +45,7 @@ def hit? (total)
    when "s"
      return total
    when "h"
-     return total + deal_card
+     return (total + deal_card)
    else
      invalid_command
      prompt_user
