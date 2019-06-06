@@ -36,23 +36,23 @@ def initial_round
   display_card_total (sum)
   return sum
 end
-=begin
+
 def hit? (total)
   # code hit? here
   prompt_user
   answer = get_user_input
-  case answer
-  when "s"
-    break
-  when "h"
-    deal_card
-  else
-    invalid_command
-    prompt_user
-  end
-
+  
+  # case answer
+  # when "s"
+  #   break
+  # when "h"
+  #   deal_card
+  # else
+  #   invalid_command
+  #   prompt_user
+  # end
 end
-=end
+
 
 def invalid_command
   # code invalid_command here
