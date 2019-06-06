@@ -67,6 +67,9 @@ def runner
   # code runner here
   welcome
   initial_round
-  prompt_user
-  
+  total = 0
+  until total > 21
+    total = hit? (total)
+
+  end
 end
